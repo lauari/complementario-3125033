@@ -1,0 +1,71 @@
+Aplicación;Año;Porcentaje
+Visual Studio Code;2017;10
+Visual Studio Code;2018;15
+Visual Studio Code;2019;20
+Visual Studio Code;2020;25
+Visual Studio Code;2021;30
+Visual Studio Code;2022;35
+Visual Studio Code;2023;40
+PyCharm;2017;8
+PyCharm;2018;10
+PyCharm;2019;12
+PyCharm;2020;13
+PyCharm;2021;15
+PyCharm;2022;18
+PyCharm;2023;20
+Eclipse;2017;12
+Eclipse;2018;11
+Eclipse;2019;10
+Eclipse;2020;9
+Eclipse;2021;8
+Eclipse;2022;7
+Eclipse;2023;6
+IntelliJ IDEA;2017;10
+IntelliJ IDEA;2018;12
+IntelliJ IDEA;2019;14
+IntelliJ IDEA;2020;16
+IntelliJ IDEA;2021;18
+IntelliJ IDEA;2022;20
+IntelliJ IDEA;2023;22
+Xcode;2017;8
+Xcode;2018;9
+Xcode;2019;10
+Xcode;2020;11
+Xcode;2021;12
+Xcode;2022;13
+Xcode;2023;14
+Android Studio;2017;15
+Android Studio;2018;16
+Android Studio;2019;18
+Android Studio;2020;20
+Android Studio;2021;22
+Android Studio;2022;24
+Android Studio;2023;25
+Sublime Text;2017;6
+Sublime Text;2018;5
+Sublime Text;2019;5
+Sublime Text;2020;5
+Sublime Text;2021;5
+Sublime Text;2022;4
+Sublime Text;2023;4
+Atom;2017;5
+Atom;2018;6
+Atom;2019;7
+Atom;2020;8
+Atom;2021;9
+Atom;2022;8
+Atom;2023;7
+NetBeans;2017;7
+NetBeans;2018;7
+NetBeans;2019;6
+NetBeans;2020;6
+NetBeans;2021;6
+NetBeans;2022;5
+NetBeans;2023;5
+Brackets;2017;4
+Brackets;2018;4
+Brackets;2019;3
+Brackets;2020;3
+Brackets;2021;3
+Brackets;2022;2
+Brackets;2023;2

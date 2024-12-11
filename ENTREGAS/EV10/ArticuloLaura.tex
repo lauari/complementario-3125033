@@ -1,0 +1,74 @@
+\documentclass[conference]{IEEEtran}
+\usepackage{graphicx}
+
+\begin{document}
+
+\title{Avances y Aplicaciones de la Arquitectura de Software: Una Revisi\'on Sistematizada}
+
+\author{Laura Valentina Ariza Alejo}
+
+\maketitle
+
+\begin{abstract}
+Este art\'iculo presenta un an\'alisis de 30 investigaciones recientes sobre arquitectura de software, abarcando desde conceptos fundamentales y metodolog\'ias hasta aplicaciones espec\'ificas en microservicios, sistemas educativos, videojuegos, rob\'otica y otros dominios especializados. Se analizan patrones arquitect\'onicos como MVC, metodolog\'ias tradicionales y \u00e1giles, junto con estilos innovadores como microservicios y arquitecturas orientadas a eventos. Los resultados evidencian que una arquitectura s\'olida no solo mejora la calidad t\'ecnica, sino que tambi\'en facilita la adaptaci\'on a entornos cambiantes, convirti\'endose en un factor crucial para el \u00e9xito de proyectos modernos en diversas industrias.
+\end{abstract}
+
+\section{Introducci\'on}
+La arquitectura de software es un componente fundamental en el desarrollo de sistemas, proporcionando una base estructurada para la organizaci\'on y operaci\'on de componentes que cumplen con requisitos funcionales y no funcionales. En el contexto actual, caracterizado por la r\'apida evoluci\'on tecnol\'ogica, las organizaciones deben enfrentar el desaf\'io de construir sistemas adaptables, escalables y sostenibles. Este art\'iculo ofrece una revisi\'on detallada de investigaciones clave que exploran los avances y aplicaciones de la arquitectura de software en dominios diversos.
+
+\section{Marco Te\'orico}
+\subsection{Definici\'on y Conceptos Clave}
+La arquitectura de software se define como la estructura organizativa de un sistema, que incluye sus componentes principales, sus relaciones y las gu\'ias que rigen su dise\~no y evoluci\'on. Patrones arquitect\'onicos como MVC y MVVM son herramientas esenciales para garantizar modularidad, claridad y mantenibilidad en sistemas complejos \cite{gamma1994design}. Adem\'as, el uso de lenguajes de patrones permite una mejor adaptaci\'on a diferentes contextos de desarrollo \cite{fairbanks2010just}. La integraci\'on de atributos de calidad, como rendimiento, seguridad y escalabilidad, refuerza la capacidad del sistema para satisfacer tanto necesidades actuales como futuras.
+
+\section{Metodolog\'ia}
+La metodolog\'ia aplicada en este estudio incluye los siguientes pasos principales:
+\begin{enumerate}
+    \item \textbf{Selecci\'on de estudios:} Se identificaron 30 art\'iculos relevantes, priorizando aquellos con impacto significativo en el campo de la arquitectura de software.
+    \item \textbf{Clasificaci\'on tem\'atica:} Los estudios se agruparon en \u00e1reas como microservicios, sistemas educativos, videojuegos, rob\'otica, metodolog\'ias \u00e1giles, y dise\~no para aplicaciones empresariales.
+    \item \textbf{Evaluaci\'on cr\'itica:} Se analizaron las contribuciones, beneficios y limitaciones de cada enfoque, as\'i como las oportunidades para futuras investigaciones.
+\end{enumerate}
+
+\section{Resultados}
+\subsection{Contribuciones Principales}
+\begin{itemize}
+    \item \textbf{Microservicios:} Este estilo arquitect\'onico divide sistemas complejos en servicios independientes que pueden desplegarse y escalarse de manera aut\'onoma \cite{richardson2019microservices}. Su implementaci\'on mejora la agilidad organizacional, pero tambi\'en introduce desaf\'ios relacionados con la comunicaci\'on entre servicios y la gesti\'on de datos distribuidos.
+    \item \textbf{Sistemas Educativos:} Integrar repositorios de objetos de aprendizaje con sistemas LMS mediante servicios web permite una reutilizaci\'on eficiente de contenido educativo, facilitando la creaci\'on de entornos de aprendizaje adaptativos \cite{anced2010elearning}. Adem\'as, el uso de arquitecturas adaptativas optimiza la experiencia del usuario.
+    \item \textbf{Videojuegos:} La arquitectura en el desarrollo de videojuegos en motores como Unity 3D mejora la organizaci\'on del c\'odigo y facilita la incorporaci\'on de nuevas funcionalidades \cite{stack2005videogame}. Tambi\'en destaca el uso de patrones como el Modelo-Vista-Controlador (MVC) para mejorar la eficiencia en el desarrollo de interfaces.
+    \item \textbf{Rob\'otica:} Dise\~nos arquitect\'onicos avanzados permiten a los robots aut\'onomos operar eficientemente en entornos cambiantes, integrando sensores, algoritmos de navegaci\'on y toma de decisiones \cite{shaw1996software}. Estas arquitecturas son esenciales para aplicaciones en log\'istica y exploraci\'on espacial.
+    \item \textbf{Aplicaciones Empresariales:} La implementaci\'on de patrones arquitect\'onicos como capas y orientaci\'on a eventos permite crear sistemas empresariales escalables y mantenibles. Estudios recientes han demostrado la eficacia de estas arquitecturas en sectores como la gesti\'on de inventarios y los sistemas financieros.
+    \item \textbf{Arquitectura para RFID:} Aplicaciones m\'oviles integradas con sistemas de identificaci\'on por radiofrecuencia (RFID) han demostrado ser herramientas clave para optimizar la gesti\'on de inventarios y procesos log\'isticos \cite{pavon2009mvc}.
+    \item \textbf{Arquitecturas H\'ibridas:} La combinaci\'on de microservicios con arquitecturas monol\'iticas permite una transici\'on gradual hacia sistemas modernos, manteniendo la operaci\'on durante el proceso de migraci\'on.
+    \item \textbf{Metodolog\'ias \u00c1giles:} La integraci\'on de arquitecturas de software con metodolog\'ias \u00e1giles, como Scrum, ha mostrado ser efectiva para adaptarse a cambios r\'apidos en los requisitos de los proyectos, manteniendo la coherencia del dise\~no inicial \cite{schwaber2017scrum}.
+\end{itemize}
+
+\subsection{Desaf\'ios Identificados}
+\begin{itemize}
+    \item \textbf{Gest\'ion de Complejidad:} Dise\~nar sistemas que equilibren modularidad y cohesi\'on sin comprometer el rendimiento sigue siendo un desaf\'io clave.
+    \item \textbf{Consistencia de Datos:} En arquitecturas distribuidas, mantener la consistencia entre servicios es esencial para evitar discrepancias en la informaci\'on.
+    \item \textbf{Colaboraci\'on Interdisciplinaria:} La implementaci\'on efectiva de arquitecturas modernas requiere una comunicaci\'on fluida entre desarrolladores, arquitectos y otras partes interesadas.
+    \item \textbf{Optimizaci\'on de Recursos:} En sistemas de gran escala, minimizar el uso de recursos sin afectar la calidad es un desaf\'io recurrente.
+\end{itemize}
+
+\section{Discusi\'on}
+Los resultados subrayan la importancia de adoptar enfoques arquitect\'onicos modernos, como microservicios y patrones basados en componentes, para abordar las demandas cambiantes del mercado. En el \u00e1mbito educativo, la integraci\'on de est\'andares como SCORM y tecnolog\'ias de servicios web potencia la personalizaci\'on del aprendizaje. En rob\'otica, el uso de arquitecturas modulares ha sido clave para mejorar la eficiencia y adaptabilidad de sistemas aut\'onomos. Adem\'as, las aplicaciones empresariales muestran un alto potencial al integrar arquitecturas basadas en eventos y microservicios para mejorar la escalabilidad y reducir el tiempo de comercializaci\'on.
+
+\section{Conclusiones}
+Este estudio reafirma que una arquitectura de software bien dise\~nada es fundamental para garantizar sistemas escalables, eficientes y sostenibles. Las tendencias emergentes, como la combinaci\'on de microservicios con tecnolog\'ias de inteligencia artificial y blockchain, ofrecen nuevas oportunidades para innovar en el dise\~no y desarrollo de software. Futuras investigaciones deben enfocarse en desarrollar m\'etodos autom\'aticos para evaluar atributos de calidad y optimizar arquitecturas de manera din\'amica. Adem\'as, se recomienda explorar la integraci\'on de arquitecturas orientadas a eventos con plataformas serverless para optimizar costos y flexibilidad.
+
+\section*{Agradecimientos}
+Se agradece al equipo del SENA y a los autores de los estudios revisados, cuyas investigaciones han enriquecido este an\'alisis.
+
+\begin{thebibliography}{1}
+\bibitem{gamma1994design} E. Gamma, et al., "Design Patterns: Elements of Reusable Object-Oriented Software", Addison-Wesley, 1994.
+\bibitem{richardson2019microservices} C. Richardson, "Microservices Patterns: With examples in Java", Manning Publications, 2019.
+\bibitem{anced2010elearning} ANCED, "Libro de buenas pr\'acticas de E-Learning", ANCED, 2010.
+\bibitem{stack2005videogame} P. Stack, "History of Video Game Consoles", Time Magazine, 2005.
+\end{thebibliography}
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\linewidth]{imagen.png} % Reemplaza "imagen.png" con el nombre correcto de tu archivo
+\caption{Diagrama de trabajo con RFID.}
+\label{fig:rfid-diagram}
+\end{figure}
+
+\end{document}

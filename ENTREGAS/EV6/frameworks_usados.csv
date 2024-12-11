@@ -1,0 +1,71 @@
+Framework;Año;Porcentaje
+React;2017;20
+React;2018;25
+React;2019;30
+React;2020;35
+React;2021;40
+React;2022;45
+React;2023;50
+Angular;2017;18
+Angular;2018;20
+Angular;2019;22
+Angular;2020;23
+Angular;2021;25
+Angular;2022;26
+Angular;2023;27
+Django;2017;8
+Django;2018;9
+Django;2019;10
+Django;2020;12
+Django;2021;14
+Django;2022;16
+Django;2023;18
+Spring;2017;10
+Spring;2018;12
+Spring;2019;14
+Spring;2020;16
+Spring;2021;17
+Spring;2022;18
+Spring;2023;19
+Vue.js;2017;10
+Vue.js;2018;12
+Vue.js;2019;14
+Vue.js;2020;16
+Vue.js;2021;18
+Vue.js;2022;20
+Vue.js;2023;22
+Flask;2017;5
+Flask;2018;6
+Flask;2019;7
+Flask;2020;8
+Flask;2021;9
+Flask;2022;10
+Flask;2023;12
+Ruby on Rails;2017;7
+Ruby on Rails;2018;8
+Ruby on Rails;2019;9
+Ruby on Rails;2020;10
+Ruby on Rails;2021;11
+Ruby on Rails;2022;12
+Ruby on Rails;2023;13
+Laravel;2017;6
+Laravel;2018;7
+Laravel;2019;8
+Laravel;2020;9
+Laravel;2021;10
+Laravel;2022;11
+Laravel;2023;12
+ASP.NET;2017;4
+ASP.NET;2018;5
+ASP.NET;2019;6
+ASP.NET;2020;7
+ASP.NET;2021;8
+ASP.NET;2022;9
+ASP.NET;2023;10
+Express;2017;5
+Express;2018;6
+Express;2019;7
+Express;2020;8
+Express;2021;9
+Express;2022;9
+Express;2023;9
